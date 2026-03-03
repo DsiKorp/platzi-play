@@ -230,8 +230,8 @@ Variables esperadas para entorno `dev`:
 DB_HOST=localhost
 DB_PORT=5432
 POSTGRES_DATABASE=platzi_play_db
-POSTGRES_USER_DEV=juan
-POSTGRES_PASSWORD_DEV=juan.platzi
+POSTGRES_USER_DEV=db_user
+POSTGRES_PASSWORD_DEV=passwd_db_user
 SPRING_DATASOURCE_DEV_URL=jdbc:postgresql://${DB_HOST}:${DB_PORT}/${POSTGRES_DATABASE}
 ```
 
